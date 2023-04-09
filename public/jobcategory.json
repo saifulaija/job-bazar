@@ -1,0 +1,7 @@
+[
+    { "id": 1, "category": "Healthcare", "jobsAvailable": 250 , "image": "https://cdn-icons-png.flaticon.com/512/2927/2927067.png" },
+    { "id": 2, "category": "Technology", "jobsAvailable": 150 , "image": "https://cdn-icons-png.flaticon.com/512/10301/10301753.png"  },
+    { "id": 3, "category": "Education", "jobsAvailable": 100,  "image": "https://cdn-icons-png.flaticon.com/512/1940/1940611.png"  },
+    { "id": 4, "category": "Finance", "jobsAvailable": 75 , "image": "https://cdn-icons-png.flaticon.com/512/781/781902.png"  }
+  ]
+  
