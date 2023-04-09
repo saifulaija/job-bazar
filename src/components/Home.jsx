@@ -20,9 +20,14 @@ const Home = () => {
  getUsers()
 }, []);
 
+const showDetails=(id)=>{
+    console.log(id);
+
+}
+
  
   return (
-   <div className="bg-gray-200">
+   <div className="bg-gray-100">
      <div className="container mx-auto">
       <div className="flex justify-between items-center  my-4">
         <div>
@@ -59,10 +64,13 @@ const Home = () => {
 
       <h1 className="text-center text-4xl font-semibold">Featured Jobs</h1>
       <p className="text-center font-normal mt-4">Explore thousands of job opportunities with all the information you need. Its your future</p>
-         
-        {
-            jobsData.map(job=> <FeaturedJobs job={job} key={job.id}></FeaturedJobs>)
+       <div className="grid md:grid-cols-2 space-x-8 space-y-6">
+
+          
+       {
+            jobsData.map(job=> <FeaturedJobs job={job} key={job.id} showDetails={showDetails}></FeaturedJobs>)
         }
+       </div>
       </div>
     </div>
    </div>

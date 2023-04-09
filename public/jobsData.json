@@ -4,7 +4,7 @@
     {
       "id": 1,
       "companyName": "Google Limited",
-      "companyLogo": "https://i.ibb.co/rkT6qn6/google-1-1-1.png",
+      "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLyJHKMBwDt5SgQVcW-yiMO4nFKzsVWkt3VkjarD57r0wxGG4&s",
       "jobTitle": "Software Developer",
       "jobDescription": "We are seeking a talented software developer to join our team.",
       "jobResponsibility": "Design and develop software applications, write clean, maintainable, and efficient code, collaborate with cross-functional teams to identify and solve complex problems, participate in code reviews and provide constructive feedback",
@@ -13,12 +13,13 @@
       "salary": "$90,000 - $120,000",
       "phoneNumber": "555-1234",
       "email": "jobs@acme.com",
-      "companyAddress": "123 Main St, Anytown USA"
+      "companyAddress": "123 Main St, Anytown USA",
+      "jobType" : "Part Time"
     },
     {
       "id": 2,
       "companyName": "NetFlix Ltd",
-      "companyLogo": "https://i.ibb.co/Tr88pV5/netflix-4-1.png",
+      "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4iTuA7dmPTCU4LgKyWw0kPebkH_rUin4Lpdi55pPeszYP0Gc&s",
       "jobTitle": "Marketing Manager",
       "jobDescription": "We are looking for an experienced marketing manager to lead our team.",
       "jobResponsibility": "Develop and implement marketing strategies, manage marketing campaigns and initiatives, analyze market trends and consumer behavior, collaborate with cross-functional teams to achieve business goals",
@@ -27,7 +28,8 @@
       "salary": "$100,000 - $150,000",
       "phoneNumber": "555-5678",
       "email": "jobs@xyzcorp.com",
-      "companyAddress": "456 Oak St, Anytown USA"
+      "companyAddress": "456 Oak St, Anytown USA",
+      "jobType" : "Remote"
     },
     {
       "id": 3,
@@ -41,7 +43,8 @@
       "salary": "$70,000 - $90,000",
       "phoneNumber": "555-9012",
       "email": "jobs@abcindustries.com",
-      "companyAddress": "789 Elm St, Anytown USA"
+      "companyAddress": "789 Elm St, Anytown USA",
+      "jobType" : "Full Time"
     },
     {
       "id": 4,
@@ -55,7 +58,8 @@
       "salary": "$100,000 - $130,000",
       "phoneNumber": "555-3456",
       "email": "jobs@bigcorp.com",
-      "companyAddress": "1010 Maple St, Anytown USA"
+      "companyAddress": "1010 Maple St, Anytown USA",
+      "jobType" : "Full Time"
     },
     {
       "id": 5,
@@ -69,7 +73,8 @@
       "salary": "$100,000 - $130,000",
       "phoneNumber": "555-3456",
       "email": "jobs@bigcorp.com",
-      "companyAddress": "1010 Maple St, Anytown USA"
+      "companyAddress": "1010 Maple St, Anytown USA",
+      "jobType" : "Part Time"
     },
     {
       "id": 6,
@@ -83,7 +88,8 @@
       "salary": "$100,000 - $130,000",
       "phoneNumber": "555-3456",
       "email": "jobs@bigcorp.com",
-      "companyAddress": "1010 Maple St, Anytown USA"
+      "companyAddress": "1010 Maple St, Anytown USA",
+      "jobType" : "Remote"
     },
     {
       "id": 7,
@@ -97,6 +103,7 @@
       "salary": "$100,000 - $130,000",
       "phoneNumber": "555-3456",
       "email": "jobs@bigcorp.com",
-      "companyAddress": "1010 Maple St, Anytown USA"
+      "companyAddress": "1010 Maple St, Anytown USA",
+      "jobType" : "Remote"
     }
 ]
