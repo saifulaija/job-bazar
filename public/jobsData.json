@@ -1,0 +1,102 @@
+
+
+[
+    {
+      "id": 1,
+      "companyName": "Google Limited",
+      "companyLogo": "https://i.ibb.co/rkT6qn6/google-1-1-1.png",
+      "jobTitle": "Software Developer",
+      "jobDescription": "We are seeking a talented software developer to join our team.",
+      "jobResponsibility": "Design and develop software applications, write clean, maintainable, and efficient code, collaborate with cross-functional teams to identify and solve complex problems, participate in code reviews and provide constructive feedback",
+      "educationRequirements": "Bachelor's degree in Computer Science or related field",
+      "experience": "3+ years of experience in software development",
+      "salary": "$90,000 - $120,000",
+      "phoneNumber": "555-1234",
+      "email": "jobs@acme.com",
+      "companyAddress": "123 Main St, Anytown USA"
+    },
+    {
+      "id": 2,
+      "companyName": "NetFlix Ltd",
+      "companyLogo": "https://i.ibb.co/Tr88pV5/netflix-4-1.png",
+      "jobTitle": "Marketing Manager",
+      "jobDescription": "We are looking for an experienced marketing manager to lead our team.",
+      "jobResponsibility": "Develop and implement marketing strategies, manage marketing campaigns and initiatives, analyze market trends and consumer behavior, collaborate with cross-functional teams to achieve business goals",
+      "educationRequirements": "Bachelor's degree in Marketing or related field",
+      "experience": "5+ years of experience in marketing management",
+      "salary": "$100,000 - $150,000",
+      "phoneNumber": "555-5678",
+      "email": "jobs@xyzcorp.com",
+      "companyAddress": "456 Oak St, Anytown USA"
+    },
+    {
+      "id": 3,
+      "companyName": "ABC Industries",
+      "companyLogo": "https://i.ibb.co/d7LQbQg/Group-10021.png",
+      "jobTitle": "Financial Analyst",
+      "jobDescription": "We are seeking a skilled financial analyst to join our finance team.",
+      "jobResponsibility": "Analyze financial data and prepare reports, monitor financial performance and identify areas for improvement, assist in budgeting and forecasting activities, collaborate with cross-functional teams to support business objectives",
+      "educationRequirements": "Bachelor's degree in Finance, Accounting or related field",
+      "experience": "2+ years of experience in financial analysis",
+      "salary": "$70,000 - $90,000",
+      "phoneNumber": "555-9012",
+      "email": "jobs@abcindustries.com",
+      "companyAddress": "789 Elm St, Anytown USA"
+    },
+    {
+      "id": 4,
+      "companyName": "Twitter.",
+      "companyLogo": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0IJVDdxX2gc2vMkTw1xWDQyzkjhTQqX28SlyiSE3q_8H0dLo&s",
+      "jobTitle": "Project Manager",
+      "jobDescription": "We are seeking an experienced project manager to oversee our projects.",
+      "jobResponsibility": "Plan, execute and monitor project activities, manage project budgets and timelines, communicate project status and risks to stakeholders, lead and motivate project teams",
+      "educationRequirements": "Bachelor's degree in Project Management or related field",
+      "experience": "5+ years of experience in project management",
+      "salary": "$100,000 - $130,000",
+      "phoneNumber": "555-3456",
+      "email": "jobs@bigcorp.com",
+      "companyAddress": "1010 Maple St, Anytown USA"
+    },
+    {
+      "id": 5,
+      "companyName": "Totopedia",
+      "companyLogo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTFmwJUPYfUGBtnACgU4lghd0dwaAFaj2qXk3SC6RmcI04w4F8&s",
+      "jobTitle": "Software Developer",
+      "jobDescription": "We are seeking an experienced project manager to oversee our projects.",
+      "jobResponsibility": "Plan, execute and monitor project activities, manage project budgets and timelines, communicate project status and risks to stakeholders, lead and motivate project teams",
+      "educationRequirements": "Bachelor's degree in Project Management or related field",
+      "experience": "5+ years of experience in project management",
+      "salary": "$100,000 - $130,000",
+      "phoneNumber": "555-3456",
+      "email": "jobs@bigcorp.com",
+      "companyAddress": "1010 Maple St, Anytown USA"
+    },
+    {
+      "id": 6,
+      "companyName": "Amazon",
+      "companyLogo": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeu1vBxIGcUsy2p-21zz0t_uAIVM7AyLeVh6oO5XzY7sl6wpKa&s",
+      "jobTitle": "Legal Adviser",
+      "jobDescription": "We are seeking an experienced project manager to oversee our projects.",
+      "jobResponsibility": "Plan, execute and monitor project activities, manage project budgets and timelines, communicate project status and risks to stakeholders, lead and motivate project teams",
+      "educationRequirements": "Bachelor's degree in Project Management or related field",
+      "experience": "5+ years of experience in project management",
+      "salary": "$100,000 - $130,000",
+      "phoneNumber": "555-3456",
+      "email": "jobs@bigcorp.com",
+      "companyAddress": "1010 Maple St, Anytown USA"
+    },
+    {
+      "id": 7,
+      "companyName": "Ubber",
+      "companyLogo": " https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTS_qEB24yk1r56RWkIEb0G1SbwAQj3Vy9CFPfGnidRgoEGPSzQ&s",
+      "jobTitle": "Inventory Officer",
+      "jobDescription": "We are seeking an experienced project manager to oversee our projects.",
+      "jobResponsibility": "Plan, execute and monitor project activities, manage project budgets and timelines, communicate project status and risks to stakeholders, lead and motivate project teams",
+      "educationRequirements": "Bachelor's degree in Project Management or related field",
+      "experience": "5+ years of experience in project management",
+      "salary": "$100,000 - $130,000",
+      "phoneNumber": "555-3456",
+      "email": "jobs@bigcorp.com",
+      "companyAddress": "1010 Maple St, Anytown USA"
+    }
+]
