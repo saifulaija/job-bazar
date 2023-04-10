@@ -1,6 +1,7 @@
 import { data } from "autoprefixer";
 import React, { useEffect, useState } from "react";
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
+ 
 import {
   GlobeAsiaAustraliaIcon,
   PhoneIcon,
@@ -29,7 +30,7 @@ const JobDetails = () => {
   console.log(result);
 
   return (
-    <div className="m-20 ">
+    <div className="m-20 img">
       <div>
         <h1 className="text-center text-4xl font-semibold">Job Details</h1>
       </div>
@@ -98,7 +99,7 @@ const JobDetails = () => {
             </p>
             <p>Address : {result[0].companyAddress}</p>
           </div>
-          <button  className="text-white font-semibold mt-10 w-[60%] bg-gradient-to-r from-violet-500 to-fuchsia-500 px-4 py-2 rounded-md ">Apply Now</button>
+         <Link to='/jobs'> <button  className="text-white font-semibold mt-10 w-[60%] bg-gradient-to-r from-violet-500 to-fuchsia-500 px-4 py-2 rounded-md ">Apply Now</button></Link>
         </div>
       </div>
      
