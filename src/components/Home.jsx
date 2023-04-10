@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useLoaderData } from "react-router-dom";
 import JobCategory from "./JobCategory";
 import FeaturedJobs from "./FeaturedJobs";
+import { addToDb } from "../utility/FakeData";
 
 const Home = () => {
   
@@ -14,7 +15,7 @@ const Home = () => {
   
   useEffect(() => {
   const getUsers = async () => {
-    let response = await fetch('jobcategory.json');
+    let response = await fetch('/jobcategory.json');
     let dataOne = await response.json();
     setData(dataOne);
   };
@@ -25,7 +26,6 @@ const Home = () => {
 const showAllData = () => {
   setShowAll(false);
 };
-
 
  
   return (

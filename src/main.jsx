@@ -8,6 +8,7 @@ import Statistics from './components/Statistics'
 import AppliedJobs from './components/AppliedJobs'
 import Blog from './components/Blog'
 import JobDetails from './components/JobDetails'
+import { cartAndProductData } from './loader/getCart'
 
 
 
@@ -28,7 +29,8 @@ const router = createBrowserRouter([
     },
     {
       path:'jobs',
-      element:<AppliedJobs></AppliedJobs>
+      element:<AppliedJobs></AppliedJobs>,
+       loader :cartAndProductData,
     },
      {
       path:'job/:id',
