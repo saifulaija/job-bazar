@@ -7,7 +7,7 @@ const Home = () => {
   
    const jobsData = useLoaderData();
 
-   console.log(jobsData);
+   
   const [data, setData] = useState([]);
   
   useEffect(() => {
@@ -20,10 +20,6 @@ const Home = () => {
  getUsers()
 }, []);
 
-const showDetails=(id)=>{
-    console.log(id);
-
-}
 
  
   return (
@@ -68,7 +64,7 @@ const showDetails=(id)=>{
 
           
        {
-            jobsData.map(job=> <FeaturedJobs job={job} key={job.id} showDetails={showDetails}></FeaturedJobs>)
+            jobsData.map(job=> <FeaturedJobs job={job} key={job.id} ></FeaturedJobs>)
         }
        </div>
       </div>
