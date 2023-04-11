@@ -31,7 +31,7 @@ const showAllData = () => {
   return (
    <div className="bg-gray-100">
      <div className="container mx-auto">
-      <div className="flex justify-between items-center  my-4">
+      <div className=" md:flex justify-between items-center md:px-0 p-4  my-4">
         <div>
           <h1 className="text-6xl tracking-wider font-semibold ">
             One Step <br /> Closer To Your <br />{" "}
@@ -56,7 +56,7 @@ const showAllData = () => {
        <div className=" my-20">
         <h1 className="text-center text-4xl font-semibold">Job Category List</h1>
         <p className="text-center font-normal mt-4">Explore thousands of job opportunities with all the information you need. Its your future</p>
-         <div className="flex items-center justify-between space-x-4">
+         <div className="md:flex  items-center justify-between space-x-4">
          {
             data?.map(job=><JobCategory job={job} key={job.id}></JobCategory>)
           }
@@ -66,8 +66,8 @@ const showAllData = () => {
       <div>
 
       <h1 className="text-center text-4xl font-semibold">Featured Jobs</h1>
-      <p className="text-center font-normal mt-4">Explore thousands of job opportunities with all the information you need. Its your future</p>
-       <div className="grid md:grid-cols-2 space-x-8 space-y-6 my-10">
+      <p className="text-center font-normal my-6">Explore thousands of job opportunities with all the information you need. Its your future</p>
+       <div className="grid md:grid-cols-2 mb-5">
 
           
        {
@@ -78,7 +78,7 @@ const showAllData = () => {
        {
         showAll && (
           <div className="text-center">
-          <button onClick={showAllData} className="text-white font-semibold  bg-gradient-to-r from-violet-500 to-fuchsia-500 px-4 py-2 rounded-md ">Show All</button>
+          <button onClick={showAllData} className="text-white font-semibold  bg-gradient-to-r from-violet-500 to-fuchsia-500 px-4 py-2 rounded-md ">Show All Jobs</button>
          </div>
         )
        }

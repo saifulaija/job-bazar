@@ -13,7 +13,7 @@ const FeaturedJobs = ({ job }) => {
   } = job;
 
   return (
-    <div className="shadow-md border border-blue-200 p-6 w-[500px] h-[300px]">
+    <div className=" border space-x-3 mb-4 p-6 w-[500px] h-[300px]">
       <img className="w-40 h-20 bg-cover" src={companyLogo} alt="" />
       <h1>{jobTitle}</h1>
       <h1>{companyName}</h1>
