@@ -1,8 +1,8 @@
 import React from "react";
-
+ const img = 'https://i.ibb.co/ySjrKQ2/Vector-1.png'
 const Blog = () => {
   return (
-    <div className="bg-gray-50 my-10 container mx-auto text-justify">
+    <div className="bg-gray-50 my-10 container mx-auto text-justify bg-[url('{img}')]">
       <h1 className="text-2xl font-bold underline">
         a. When should you use context API?
       </h1>
