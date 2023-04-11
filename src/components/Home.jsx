@@ -15,7 +15,7 @@ const Home = () => {
   
   useEffect(() => {
   const getUsers = async () => {
-    let response = await fetch('/jobcategory.json');
+    let response = await fetch("/jobcategory.json");
     let dataOne = await response.json();
     setData(dataOne);
   };
