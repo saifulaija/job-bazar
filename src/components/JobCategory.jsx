@@ -1,17 +1,15 @@
-import React from 'react';
+import React from "react";
 
-const JobCategory = ({job}) => {
+const JobCategory = ({ job }) => {
+  const { category, image, jobsAvailable } = job;
 
-    const {category, image, jobsAvailable } = job;
-     
-     
-    return (
-        <div className=' flex-col space-y-2 border bg-gray-200 rounded-lg  border-white shadow-lg  '>
-            <img className='w-30 h-30 items-start object-cover' src={image} alt="" />
-            <h1 className='text-xl font-semibold mt-6'>{category}</h1>
-            <p className='font-light'>{jobsAvailable} jobs Available</p>
-        </div>
-    );
+  return (
+    <div className=" flex-col  border bg-gray-100 rounded-lg shadow-md p-8 my-4  md:w-48 h-48   ">
+      <img className="w-10 h-10 items-start object-cover" src={image} alt="" />
+      <h1 className="text-xl font-semibold mt-6">{category}</h1>
+      <p className="font-light">{jobsAvailable} jobs Available</p>
+    </div>
+  );
 };
 
 export default JobCategory;

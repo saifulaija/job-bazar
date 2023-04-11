@@ -36,7 +36,7 @@ const JobDetails = () => {
 
   
   return (
-    <div className="m-20 img">
+    <div className="m-20 bg-[url('/src/images/vector.png')] object-cover bg-no-repeat ">
       <div>
         <h1 className="text-center text-4xl font-semibold">Job Details</h1>
       </div>
@@ -67,7 +67,7 @@ const JobDetails = () => {
           </h4>
         </div>
 
-        <div className=" p-6 bg-gray-50">
+        <div className=" p-6 bg-yellow-100">
           <h1 className=" text-xl font-semibold">Job Details</h1>
           <div className=" text-red my-6">
             {" "}

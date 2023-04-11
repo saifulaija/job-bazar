@@ -29,7 +29,7 @@ const showAllData = () => {
 
  
   return (
-   <div className="bg-gray-100">
+   <div className="bg-gray-50">
      <div className="container mx-auto">
       <div className=" md:flex justify-between items-center md:px-0 p-4  my-4">
         <div>
@@ -56,7 +56,7 @@ const showAllData = () => {
        <div className=" my-20">
         <h1 className="text-center text-4xl font-semibold">Job Category List</h1>
         <p className="text-center font-normal mt-4">Explore thousands of job opportunities with all the information you need. Its your future</p>
-         <div className="md:flex  items-center justify-between space-x-4">
+         <div className="md:flex  items-center justify-between space-x-4 mt-8">
          {
             data?.map(job=><JobCategory job={job} key={job.id}></JobCategory>)
           }
@@ -67,7 +67,7 @@ const showAllData = () => {
 
       <h1 className="text-center text-4xl font-semibold">Featured Jobs</h1>
       <p className="text-center font-normal my-6">Explore thousands of job opportunities with all the information you need. Its your future</p>
-       <div className="grid md:grid-cols-2 mb-5">
+       <div className="grid md:grid-cols-2 nd:mb-5">
 
           
        {

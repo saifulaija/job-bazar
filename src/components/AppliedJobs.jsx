@@ -26,7 +26,7 @@ const AppliedJobs = () => {
   console.log(menuItem);
 
   return (
-    <div className="my-10">
+    <div className="my-10 bg-[url('/src/images/vector.png')] object-cover bg-no-repeat ">
       <h1 className="font-semibold text-xl text-center">Applied Jobs</h1>
 
       <div className="flex min-h-screen items-start justify-center  text-gray-900">
