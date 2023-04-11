@@ -1,5 +1,9 @@
 import React from "react";
-import { MapPinIcon,BriefcaseIcon } from '@heroicons/react/24/solid'
+import {
+  MapPinIcon,
+  BriefcaseIcon,
+  CurrencyDollarIcon,
+} from "@heroicons/react/24/solid";
 
 const AppliedItem = ({ product }) => {
   return (
@@ -18,20 +22,35 @@ const AppliedItem = ({ product }) => {
                   {product.jobTitle}
                 </h3>
                 <p>{product.companyName}</p>
-               <div className="flex space-x-3">
-               <div className="flex items-center">
-                    <p><span><MapPinIcon className="w-4 text-gray-400"></MapPinIcon></span></p>
-                    <p>{product.companyAddress}</p>
+                <div className="mt-4">
+                  <button className="border border-blue-300 px-1 text-blue-400 font-semibold ">
+                    {product.jobCategory[0]}
+                  </button>
+                  <button className="border border-blue-300 px-1 text-blue-400 font-semibold ml-5 ">
+                    {product.jobCategory[1]}
+                  </button>
                 </div>
-                <div className="flex items-center my-4">
-                    <BriefcaseIcon className="w-4 text-gray-400"></BriefcaseIcon>
-                    {product.salary}
+                <div className="flex space-x-3">
+                  <div className="flex items-center">
+                    <p>
+                      <span>
+                        <MapPinIcon className="w-4 text-gray-400"></MapPinIcon>
+                      </span>
+                    </p>
+                    <p className="text-xs">{product.companyAddress}</p>
+                  </div>
+                  <div className="flex items-center my-4">
+                    <CurrencyDollarIcon className="w-4 text-gray-400"></CurrencyDollarIcon>
+                    <p className="text-xs"> {product.salary}</p>
+                  </div>
                 </div>
-               </div>
               </div>
             </div>
             <div>
-              <button className="text-white font-semibold  bg-gradient-to-r from-violet-500 to-fuchsia-500 px-4 py-2 rounded-md " > Details</button>
+              <button className="text-white font-semibold  bg-gradient-to-r from-violet-500 to-fuchsia-500 px-4 py-2 rounded-md ">
+                {" "}
+               Details
+              </button>
             </div>
           </div>
         </div>

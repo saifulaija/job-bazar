@@ -14,7 +14,7 @@
       "phoneNumber": "555-1234",
       "email": "jobs@acme.com",
       "companyAddress": "123 Main St, Anytown USA",
-      "jobType" : "Part Time"
+      "jobCategory" :["Part Time", "Full time"]
     },
     {
       "id": 2,
@@ -28,8 +28,8 @@
       "salary": "$100,000 - $150,000",
       "phoneNumber": "555-5678",
       "email": "jobs@xyzcorp.com",
-      "companyAddress": "456 Oak St, Anytown USA",
-      "jobType" : "Remote"
+      "companyAddress": "456 Oak St, Anytown UK",
+      "jobCategory" :["Remote", "Full time"]
     },
     {
       "id": 3,
@@ -44,7 +44,7 @@
       "phoneNumber": "555-9012",
       "email": "jobs@abcindustries.com",
       "companyAddress": "789 Elm St, Anytown USA",
-      "jobType" : "Full Time"
+      "jobCategory" :["Part Time", "Full time"]
     },
     {
       "id": 4,
@@ -56,10 +56,10 @@
       "educationRequirements": "Bachelor's degree in Project Management or related field",
       "experience": "5+ years of experience in project management",
       "salary": "$100,000 - $130,000",
-      "phoneNumber": "555-3456",
-      "email": "jobs@bigcorp.com",
+      "phoneNumber": "1850-3456",
+      "email": "adbjobs@bigcorp.com",
       "companyAddress": "1010 Maple St, Anytown USA",
-      "jobType" : "Full Time"
+      "jobCategory" :["Remote", "Full time"]
     },
     {
       "id": 5,
@@ -73,8 +73,8 @@
       "salary": "$100,000 - $130,000",
       "phoneNumber": "555-3456",
       "email": "jobs@bigcorp.com",
-      "companyAddress": "1010 Maple St, Anytown USA",
-      "jobType" : "Part Time"
+      "companyAddress": "eng  Maple St, Anytown Austrolia",
+      "jobCategory" :["Onsite", "Full time"]
     },
     {
       "id": 6,
@@ -89,7 +89,7 @@
       "phoneNumber": "555-3456",
       "email": "jobs@bigcorp.com",
       "companyAddress": "1010 Maple St, Anytown USA",
-      "jobType" : "Remote"
+      "jobCategory" :["Onsite", "Full time"]
     },
     {
       "id": 7,
@@ -101,9 +101,9 @@
       "educationRequirements": "Bachelor's degree in Project Management or related field",
       "experience": "5+ years of experience in project management",
       "salary": "$100,000 - $130,000",
-      "phoneNumber": "555-3456",
-      "email": "jobs@bigcorp.com",
-      "companyAddress": "1010 Maple St, Anytown USA",
-      "jobType" : "Remote"
+      "phoneNumber": "258-3456",
+      "email": "jobsbang@bigcorp.com",
+      "companyAddress": "1212 Bibas St, Khorakhai India",
+      "jobCategory" :["Part Time", "Full time"]
     }
 ]
