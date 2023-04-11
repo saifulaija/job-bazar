@@ -71,7 +71,7 @@ const Home = () => {
             need. Its your future
           </p>
           <div className="grid md:grid-cols-2 nd:mb-5">
-           jobsData &&  {jobsData?.slice(0, showAll? 4: jobsData?.length)?.map((job) => (
+            {jobsData.slice(0, showAll ? 4 : jobsData.length).map((job) => (
               <FeaturedJobs job={job} key={job.id}></FeaturedJobs>
             ))}
           </div>
