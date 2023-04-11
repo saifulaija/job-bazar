@@ -5,9 +5,10 @@ import {
   CurrencyDollarIcon,
 } from "@heroicons/react/24/solid";
 
-const AppliedItem = ({ product }) => {
+const AppliedItem = ({ product, filter, filterTwo }) => {
   return (
     <div>
+     
       <li className="flex flex-col p-6 sm:flex-row sm:justify-between w-[700px] border">
         <div className="flex w-full space-x-4 items-center sm:space-x-4">
           <img
