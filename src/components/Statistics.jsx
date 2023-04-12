@@ -46,6 +46,7 @@ const Statistics = () => {
 
     return (
         <div className='container mx-auto my-20' >
+            <h1 className='text-xl mb-6 font-semibold text-purple-400 text-center'> Assignment analytics</h1>
             <ResponsiveContainer width="100%" aspect={(3)}>
         <AreaChart
           width={500}
